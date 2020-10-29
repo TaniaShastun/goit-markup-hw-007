@@ -21,7 +21,7 @@
     display: flex;
     &-item:not(:last-child){
         margin-right: 50px;
-        }
+    }
     &-link{
     position: relative;
     font-weight: 500;
@@ -51,7 +51,7 @@
         height: 4px;
         border-radius: 2px;
         background-color:$accent-color;
-      }
+    }
 
   }
  

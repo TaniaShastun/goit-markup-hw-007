@@ -1,18 +1,17 @@
 .modal-form-wrapp{
     position: relative;
     display: block;
-    }
+  }
     .modal-form{
       &-btn{
           width: 200px;
           height: 50px;
-          display: block;
+          display: inline-block;
           font-weight: 700;
           border: 0;
           border-radius: 4px;
           font-size: 16px;
           line-height: 1.87;
-          display: inline;
           align-items: center;
           text-align: center;
           letter-spacing: 0.06em;
@@ -20,7 +19,7 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           background-color: $accent-color;
           align-self: center;
-  }
+      }
       &-title{
           font-weight: 700;
           font-size: 20px;
@@ -29,52 +28,52 @@
           letter-spacing: 0.03em;
           color: $page-main-color;
           margin-bottom: 12px;
-          }
-          &-input{
-              display: block;
-              width: 100%;
-              height: 40px;
-              border-radius: 4px;
-              margin-top: 4px;
-              margin-bottom: 10px;
-              padding-left: 42px;
-              border: 1px solid rgba(33, 33, 33, 0.2);
+      }
+      &-input{
+          display: block;
+          width: 100%;
+          height: 40px;
+          border-radius: 4px;
+          margin-top: 4px;
+          margin-bottom: 10px;
+          padding-left: 42px;
+          border: 1px solid rgba(33, 33, 33, 0.2);
   
-              &:hover+.modal-icon-svg,
-              &:focus +.modal-icon-svg{
-                  fill:$accent-color;
-                  transition-duration: 250ms ;
-                  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
-                 }
-                }  
-              &-input:hover,
-              &-input:focus{
-             outline: none;
-             border: 1px solid $accent-color; 
-            }
-            &-field textarea::placeholder{
-              font-weight: 400;
-              font-size: 12px;
-              line-height: 1.16;
-              letter-spacing: 0.01em;
-              color: rgba(117, 117, 117, 0.5);
-              }
-            &-link{
-              color:$accent-color ;
-              display: inline-block;
-            }
+          &:hover+.modal-icon-svg,
+          &:focus +.modal-icon-svg{
+          fill:$accent-color;
+          transition-duration: 250ms ;
+          transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+        }
+      }  
+          &-input:hover,
+          &-input:focus{
+          outline: none;
+          border: 1px solid $accent-color; 
+      }
+          &-field textarea::placeholder{
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 1.16;
+          letter-spacing: 0.01em;
+          color: rgba(117, 117, 117, 0.5);
+      }
+          &-link{
+          color:$accent-color;
+          display: inline-block;
+      }
   } 
-             .modal-icon-svg{
-              position: absolute;
-              width: 18px;
-              height: 18px;
-              top: 50%;
-              left: 12px;
-              transform: translateY(-50%);
-          }
+        .modal-icon-svg{
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 50%;
+          left: 12px;
+          transform: translateY(-50%);
+  }
         .check-label{
         margin-bottom: 30px;
-      }
+  }
       
              
       .user-message{
@@ -92,52 +91,51 @@
         &:hover,
         &:focus{
         outline: none;
-        border: 1px solid $accent-color ;
+        border: 1px solid $accent-color;
         transition-duration: 250ms ;
         transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
         }
-        }
+  }
       
-         .modal-icon-svg{
-          position: absolute;
-          width: 18px;
-          height: 18px;
-          top: 50%;
-          left: 12px;
-          transform: translateY(-50%);
+        .modal-icon-svg{
+         position: absolute;
+         width: 18px;
+         height: 18px;
+         top: 50%;
+         left: 12px;
+         transform: translateY(-50%);
           
-          }
-          .form-label{
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 14px;
-          line-height: 1.166;
-          letter-spacing: 0.01em;
-          color:$page-secondary-color;
-          }
+  }
+        .form-label{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.166;
+        letter-spacing: 0.01em;
+        color:$page-secondary-color;
+  }
          
-          .checkbox{
-          -webkit-appearance:none;
-            -moz-appearance:none;
+        .checkbox{
+        -webkit-appearance:none;
+           -moz-appearance:none;
                  appearance:none;
           
-               position: absolute;
-               &:checked+.check-label::before{
-                background-color: $accent-color;
-                border-color:$accent-color;
-                background-image: url(../images/iconcheck.svg);
-                background-size: contain;
-                background-origin: border-box;
-                transition-duration: 250ms ;
-                transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+          position: absolute;
+          &:checked+.check-label::before{
+           background-color: $accent-color;
+           border-color:$accent-color;
+           background-image: url(../images/iconcheck.svg);
+           background-size: contain;
+           background-origin: border-box;
+           transition-duration: 250ms ;
+           transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
               
-              }
-          }
+      }
+  }
           
         
           .sign-part-wrapp input {
             color: rgba(255, 255, 255, 0.6);
-          }
+  }
           
           .check-label{
           display: flex;
@@ -151,25 +149,25 @@
             border: 2px solid  $page-main-color;
             border-radius: 2px;
             margin-right: 8.38px;
-          }
-          }
+      }
+  }
           .policy-text{
           font-weight: 400;
           font-size: 14px;
           line-height:1.71;
           letter-spacing: 0.03em;
           color: $page-secondary-color;
-          }    
+  }    
           .backdrop{
-              position: fixed;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background-color: rgba(0, 0, 0, 0.2);
-              transition-duration: 250ms ;
-              transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
-              overflow-y: auto;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           background-color: rgba(0, 0, 0, 0.2);
+          transition-duration: 250ms ;
+           transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+           overflow-y: auto;
              &.is-hidden{
               opacity: 0;
               visibility: hidden;
@@ -182,9 +180,9 @@
               transition-duration:250ms ;
               transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
               transition-delay: 0ms;
-              }
-              
             }
+              
+        }
            
             .modal-wrapper{
               display: flex;
@@ -192,7 +190,7 @@
               align-items: center;
               min-height: 100%;
               padding: 15px;
-            }
+      }
             .modal{
               position: relative;
               transform:  scale(1);
@@ -218,5 +216,5 @@
               border: 1px solid rgba(0, 0, 0, 0.1);
               cursor: pointer;
             }
-          }
-        }
+      }
+  }

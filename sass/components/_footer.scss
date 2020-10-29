@@ -13,7 +13,7 @@
       letter-spacing: 0.03em;
       color:$primary-white-color;
       margin-bottom: 9px;
-        }
+      }
       &-address-part{
       margin-right: 84px;
       }  
@@ -24,7 +24,7 @@
       display: block;
       margin-right: 70px;
       }
-    }
+  }
     .footer-address{
       &-item:not(:last-child){
       margin-bottom: 9px;
@@ -44,7 +44,7 @@
       &-link:focus{
         color:$accent-color;
       }
-    }
+  }
    
 
     
